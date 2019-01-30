@@ -1,11 +1,9 @@
 #include<stdio.h>
-#include<conio.h>
-void main()
+int main()
 {
-char a;
-printf("enter  the char");
-scanf("%c",&a);
-if(a=='a',a=='e',a=='i',a=='o',a=='u')
+char i;
+scanf("%c",&i);
+if(i=='a'||i=='e'||i=='o'||i=='i'||i=='u')
 {
 printf("vowel");
 }
@@ -13,5 +11,5 @@ else
 {
 printf("consonant");
 }
-getch();
+return 0;
 }
